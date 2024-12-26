@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "菌菌帮助文档"
-  text: "菌菌帮助文档"
-  tagline: My great project tagline
+  text: ""
+  tagline: 
   actions:
     - theme: brand
       text: Markdown Examples

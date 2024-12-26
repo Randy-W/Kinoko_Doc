@@ -1,5 +1,6 @@
 ---
-layout: "home"
+layout: 'home'
+
 
 hero:
   name: "菌菌帮助文档"

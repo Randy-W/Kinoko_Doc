@@ -16,7 +16,7 @@ export default defineConfig({
       {
         text: '太鼓功能',
         items: [
-          { text: '查歌', link: '/taiko/' },
+          { text: '查歌', link: '/taiko/search' },
           { text: '别名查歌', link: '/taiko/api-examples' },
           { text: '歌曲位置', link: '/taiko/markdown-examples' },
           { text: '段位', link: '/taiko/markdown-examples' },
@@ -28,8 +28,5 @@ export default defineConfig({
       }
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
   }
 })

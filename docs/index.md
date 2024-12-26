@@ -1,6 +1,5 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
+layout: "home"
 
 hero:
   name: "菌菌帮助文档"
@@ -10,9 +9,6 @@ hero:
     - theme: brand
       text: 立即查看
       link: /markdown-examples
-    # - theme: alt
-      # text: API Examples
-      # link: /api-examples
   image:
       src: /index_logo.png
       alt: logo
@@ -27,8 +23,8 @@ features:
 ---
 <style>
 :root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,rgb(97, 155, 255) 55%, #f8332f);
+  /* --vp-home-hero-name-color: transparent; */
+  /* --vp-home-hero-name-background: -webkit-linear-gradient(120deg,rgb(97, 155, 255) 55%, #f8332f); */
 
   --vp-home-hero-image-background-image: linear-gradient(-45deg,rgb(97, 155, 255) 55%, #f8332f 50%);
   --vp-home-hero-image-filter: blur(44px);

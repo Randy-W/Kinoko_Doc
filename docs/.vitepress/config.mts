@@ -17,12 +17,12 @@ export default defineConfig({
         text: '太鼓功能',
         items: [
           { text: '查歌', link: '/taiko/search' },
-          { text: '别名查歌', link: '/taiko/api-examples' },
-          { text: '歌曲位置', link: '/taiko/markdown-examples' },
-          { text: '段位', link: '/taiko/markdown-examples' },
-          { text: '难易度表', link: '/taiko/markdown-examples' },
-          { text: '小游戏', link: '/taiko/markdown-examples' },
-          { text: '查鼓点', link: '/taiko/markdown-examples' },
+          { text: '别名查歌', link: '/taiko/alia-search' },
+          { text: '歌曲位置', link: '/taiko/song-location' },
+          { text: '段位', link: '/taiko/dani' },
+          { text: '难易度表', link: '/taiko/dondernote' },
+          { text: '小游戏', link: '/taiko/mini-game' },
+          { text: '查鼓点', link: '/taiko/find-arcades' },
 
         ]
       }

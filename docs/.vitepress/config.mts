@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "菌菌帮助文档",
   description: "菌菌帮助文档",
+  base: '/Kinoko_Doc/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

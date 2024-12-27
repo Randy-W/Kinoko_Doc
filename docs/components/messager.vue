@@ -1,6 +1,6 @@
 <template>
     <div class="chatbox">
-      <!-- <div class="chatbox-header">聊天窗口</div> -->
+      <!-- <div class="chatbox-header">菌菌</div> -->
       <div class="chatbox-messages">
         <div
           v-for="(message, index) in messages"
@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="chatbox-footer">
-        <input type="text" class="message-input" placeholder="请输入消息..." v-model="newMessage" />
+        <input type="text" class="message-input" placeholder="" v-model="newMessage" />
         <button class="send-button" @click="sendMessage">发送</button>
       </div>
     </div>
@@ -80,18 +80,18 @@
   }
   
   .chatbox-header {
-    background-color: #0099ff;
-    color: #fff;
+    background-color: #f3f2f7;
+    color: #000;
     text-align: center;
     padding: 10px;
     font-size: 18px;
-    font-weight: bold;
+    /* font-weight: light; */
   }
   
   .chatbox-messages {
     flex: 1;
     background-color: #f1f1f1;
-    padding: 10px;
+    padding: 20px 10px 6px;
     overflow-y: auto;
   }
   
@@ -111,7 +111,7 @@
   .avatar-container {
     display: flex;
     align-items: flex-start;
-    margin: 0 10px;
+    margin: 0 8px;
   }
   
   .avatar {
@@ -121,22 +121,25 @@
   }
   
   .message-bubble {
-    max-width: 70%;
-    padding: 10px 15px;
+    max-width: 75%;
+    padding: 10px 10px;
     border-radius: 8px;
     /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
   }
   
   .message-content {
-    font-size: 14px;
+    font-size: 16px;
     word-break: break-word;
     white-space: pre-wrap;
   }
   
   .message-image {
-    max-width: 100%;
+    max-width: 80%;
     border-radius: 10px;
     margin-top: 5px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
   }
   
   .chatbox-footer {

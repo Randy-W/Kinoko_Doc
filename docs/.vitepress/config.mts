@@ -5,6 +5,12 @@ export default defineConfig({
   title: "菌菌帮助文档",
   description: "菌菌帮助文档",
   base: '/Kinoko_Doc/',
+  markdown: {
+    theme: {
+        dark: 'dracula-soft',
+        light: 'github-dark',
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -13,6 +19,12 @@ export default defineConfig({
     ],
 
     sidebar: [
+      {
+        text: '概览',
+        items: [
+          { text: '介绍', link: '/quick_start/introduction' },
+        ]
+      },
       {
         text: '太鼓功能',
         items: [
@@ -27,6 +39,5 @@ export default defineConfig({
         ]
       }
     ],
-
   }
 })

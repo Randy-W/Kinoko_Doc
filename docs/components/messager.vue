@@ -91,7 +91,7 @@
   .chatbox-messages {
     flex: 1;
     background-color: #f1f1f1;
-    padding: 20px 10px 6px;
+    padding: 15px 7px 0px;
     overflow-y: auto;
   }
   
@@ -137,7 +137,7 @@
     max-width: 80%;
     border-radius: 10px;
     margin-top: 5px;
-    max-height: 150px;
+    max-height: 160px;
     width: auto;
     height: auto;
   }

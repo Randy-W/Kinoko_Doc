@@ -35,9 +35,18 @@ export default defineConfig({
           { text: '难易度表', link: '/taiko/dondernote' },
           { text: '小游戏', link: '/taiko/mini-game' },
           { text: '查鼓点', link: '/taiko/find-arcades' },
-
         ]
-      }
+      },
+      {
+        text: '其它功能',
+        items: [
+          { text: '舞萌DX', link: '/universal/maimai' },
+          { text: 'Splatoon 3', link: '/universal/splatoon' },
+          { text: '今日人品', link: '/universal/jrrp' },
+          { text: '抽奖', link: '/universal/lucky-draw' },
+          { text: '杂项功能', link: '/universal/other' },
+        ]
+      },
     ],
   }
 })

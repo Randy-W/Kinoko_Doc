@@ -26,4 +26,4 @@ export default {
 myAvatar='../avatar_neko.png' 
 otherAvatar="../avatar_kinoko.png" />
 
-![帮助maimaiDX](../helpmaimaidx.png)
+![帮助maimaiDX](/helpmaimaidx.png)

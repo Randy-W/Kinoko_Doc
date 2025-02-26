@@ -8,7 +8,7 @@ export default {
     return {
       chatMessages1: [
         { sender: 'me', text: '/段位 绿' },
-        { sender: 'other', image:'../dani_1.png' },
+        { sender: 'other', image:'../dani_1.jpg' },
       ],
       chatMessages2: [
         { sender: 'me', text: '/段位' },
@@ -19,7 +19,7 @@ export default {
       ],
       chatMessages3: [
         { sender: 'me', text: '/段位 十段' },
-        { sender: 'other', image:'../dani_2.png' },
+        { sender: 'other', image:'../dani_2.jpg' },
       ],
       chatMessages4: [
         { sender: 'me', text: '/段位 绿 十段' },

@@ -97,7 +97,7 @@ myAvatar='../avatar_neko.png'
 otherAvatar="../avatar_kinoko.png" />
 
 ## 另外...
-为了符合直觉，通过别名查歌和通过别名查别名的时候，可以将别名的部分改成`id+数字编号`，比如：
+为了符合直觉，通过别名查歌和通过别名查别名的时候，可以将`别名`改成`id+数字编号`，菌菌自动转换成[查歌](../taiko/search.md)流程中的`通过id查谱面`，等同于`最高难度 id+数字编号`。比如：
 <Chatbox :messages="chatMessages4" 
 myAvatar='../avatar_neko.png' 
 otherAvatar="../avatar_kinoko.png" />

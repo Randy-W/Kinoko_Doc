@@ -47,7 +47,7 @@ otherAvatar="../avatar_kinoko.png" />
 
 ### 通过别名查找
 和[别名查歌](../taiko/alia-search.md)类似，发送`别名+"歌在哪"`就可以直接得到歌曲位置了。  
-也就是把别名查歌中`别名+"是什么歌"`里的`是什么歌`改成`歌在哪`。就像这样：
+也就是把[别名查歌](../taiko/alia-search.md)中`别名+"是什么歌"`里的`是什么歌`改成`歌在哪`。就像这样：
 
 <Chatbox :messages="chatMessages1" 
 myAvatar='../avatar_neko.png' 

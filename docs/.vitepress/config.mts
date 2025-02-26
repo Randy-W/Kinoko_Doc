@@ -47,6 +47,13 @@ export default defineConfig({
           { text: '杂项功能', link: '/universal/other' },
         ]
       },
+      {
+        text: '菌菌菌菌菌',
+        items: [
+          { text: '实物周边', link: '/kinoko/goods' },
+          { text: '菌菌群', link: '/universal/splatoon' },
+        ]
+      },
     ],
   }
 })

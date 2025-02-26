@@ -10,7 +10,7 @@ export default {
         { sender: 'me', text: '百花缭乱是什么歌' },
         { sender: 'other', text:`你找的是不是：鬼 id764
 【百花繚乱】
-收录平台： AC11~12增、无印~绿、虹2020~虹2024、AC14、11亚、12亚、巴西桃、海外虹、PSPDX、DS2、3DS2、Wii4、PTB、手机版plus、RC、NS RPG、NS1、NS2 MP、国行虹
+收录平台： （省略）
 所在分区：ナムコオリジナル
 难度：★×8
 BPM: 148
@@ -39,13 +39,19 @@ BPM: 148
         { sender: 'me', text: 'id764是什么歌' },
         { sender: 'other', text:`你找的是不是：鬼 id764
 【百花繚乱】
-收录平台： AC11~12增、无印~绿、虹2020~虹2024、AC14、11亚、12亚、巴西桃、海外虹、PSPDX、DS2、3DS2、Wii4、PTB、手机版plus、RC、NS RPG、NS1、NS2 MP、国行虹
+收录平台： （省略）
 所在分区：ナムコオリジナル
 难度：★×8
 BPM: 148
 “谱面会分歧哦！”
 国行街机已收录！
-汉化曲名：【百花缭乱】`, image:'../search_3.png' },]
+汉化曲名：【百花缭乱】`, image:'../search_3.png' },],
+chatMessages5: [
+        { sender: 'me', text: 'dofad是什么歌' },
+        { sender: 'other', text:`你找的是不是：里 id1609
+【Re：End of a Dream
+        --uma vs. モリモリあつし】
+        (以下省略)`, image:'../无语.jpg' },]
     };
   },
 };
@@ -65,7 +71,10 @@ BPM: 148
 myAvatar='../avatar_neko.png' 
 otherAvatar="../avatar_kinoko.png" />
 
-另外，当没有通过关键字匹配到别名时，菌菌会把输入的关键字匹配一遍歌曲曲名，如果只找到了一首歌就会把最高难度的谱面发出来。
+另外，当没有通过`关键字`匹配到别名时，菌菌会把输入的`关键字`进行一次普通的[查歌](../taiko/search.md)流程，如果**只找到了一首歌**就会把最高难度的谱面发出来。比如...
+<Chatbox :messages="chatMessages5" 
+myAvatar='../avatar_neko.png' 
+otherAvatar="../avatar_kinoko.png" />
 
 ## 添加别名
 如果对歌曲别名有新的想法，可以进入[太鼓歌曲别名收集表](https://www.kdocs.cn/l/cauSVZId2ohu)来填写别名。像大家填好的那样，在对应歌曲后方写上你想添加的别名即可。  

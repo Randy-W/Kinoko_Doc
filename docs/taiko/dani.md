@@ -54,7 +54,7 @@ otherAvatar="../avatar_kinoko.png" />
 myAvatar='../avatar_neko.png' 
 otherAvatar="../avatar_kinoko.png" />
 
-## 查段位详情
+## 查段位课题详情
 需要将版本和段位结合来精确定位段位。发送`/段位 (版本) (段位)`来查询。
 
 <Chatbox :messages="chatMessages4" 

@@ -43,7 +43,7 @@ export default defineConfig({
           { text: '舞萌DX', link: '/universal/maimai' },
           { text: 'Splatoon 3', link: '/universal/splatoon' },
           { text: '今日人品', link: '/universal/jrrp' },
-          { text: '抽奖', link: '/universal/lucky-draw' },
+          // { text: '抽奖', link: '/universal/lucky-draw' },
           { text: '杂项功能', link: '/universal/other' },
         ]
       },

@@ -33,21 +33,21 @@ export default {
           buyLink:'https://pages.goofish.com/sharexy?userid=6vlVYV7BQgZdy4wDZfjobA==&bft=personal&bfp'
         },
         {
-          image: '../goods/菌菌吧唧.png',
+          image: '../goods/菌菌吧唧.jpg',
           title: '菌菌吧唧',
           description: '58mm的吧唧\n是菌菌最早的实物周边之一',
           price: 10,
           buyLink:'https://pages.goofish.com/sharexy?userid=6vlVYV7BQgZdy4wDZfjobA==&bft=personal&bfp'
         }, 
         {
-          image: '../goods/菌菌立牌.png',
+          image: '../goods/菌菌立牌.jpg',
           title: '大立牌',
           description: '长宽均超过10cm的亚克力立牌',
           price: 20,
           buyLink:'https://pages.goofish.com/sharexy?userid=6vlVYV7BQgZdy4wDZfjobA==&bft=personal&bfp'
         },
         {
-          image: '../goods/菌菌钥匙扣.png',
+          image: '../goods/菌菌钥匙扣.jpg',
           title: '钥匙扣',
           description: '5cm大小的钥匙扣\n正反双面印，可以看到菌菌的皮鼓',
           price: 10,
@@ -61,7 +61,7 @@ export default {
           buyLink:'https://pages.goofish.com/sharexy?userid=6vlVYV7BQgZdy4wDZfjobA==&bft=personal&bfp'
         },
         {
-          image: '../goods/旋转立牌.png',
+          image: '../goods/旋转立牌.jpg',
           title: '旋转立牌',
           description: `7cm的旋转立牌，底座有轴承可以转。
 我们需要更多的菌菌！`,

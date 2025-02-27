@@ -26,7 +26,7 @@ export default {
     return {
       products: [
         {
-          image: '../goods/菌菌吧唧2.png',
+          image: '../goods/菌菌吧唧2.jpg',
           title: '菌菌吧唧 75mm',
           description: '75mm的大吧唧，很好看\n美工最在线的一集',
           price: 15,

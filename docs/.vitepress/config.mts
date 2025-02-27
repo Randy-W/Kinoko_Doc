@@ -5,6 +5,7 @@ export default defineConfig({
   title: "菌菌帮助文档",
   description: "菌菌帮助文档",
   // base: '/Kinoko_Doc/',
+  appearance: false,
   markdown: {
     theme: {
         dark: 'dracula-soft',
@@ -51,7 +52,7 @@ export default defineConfig({
         text: '菌菌菌菌菌',
         items: [
           { text: '实物周边', link: '/kinoko/goods' },
-          { text: '菌菌群', link: '/universal/splatoon' },
+          { text: '邀请方式 & 菌菌群', link: '/kinoko/group' },
         ]
       },
     ],

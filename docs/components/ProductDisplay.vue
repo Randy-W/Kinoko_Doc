@@ -7,10 +7,14 @@
       </div>
       <h2 class="product-title">{{ product.title }}</h2>
       <p class="product-description" style="white-space: pre-wrap;">{{ product.description }}</p>
-      <p class="product-price">￥{{ product.price.toFixed(2) }}</p>
+      <a :href="product.buyLink" class="buy-button" target="_blank" rel="noopener noreferrer">
+        ￥{{ product.price.toFixed(2) }}
+      </a>
     </div>
   </div>
 </template>
+
+
 
 <script>
 export default {
@@ -27,7 +31,8 @@ export default {
             typeof item.image === 'string' &&
             typeof item.title === 'string' &&
             typeof item.description === 'string' &&
-            typeof item.price === 'number'
+            typeof item.price === 'number' &&
+            typeof item.buyLink === 'string'
         );
       },
     },
@@ -88,9 +93,21 @@ export default {
   margin: 10px 0;
 }
 
-.product-price {
+.buy-button {
+  display: inline-block;
+  background-color: #3f92ff;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 4px;
+  text-decoration: none;
   font-size: 1.1em;
-  color: #e74c3c;
-  margin: 10px 0;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+  /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.356); */
+}
+
+.buy-button:hover {
+  background-color: #3f92ff;
 }
 </style>

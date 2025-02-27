@@ -19,9 +19,9 @@
         <!-- 条件渲染分支 -->
         <template v-if="message.image && !message.text">
           <!-- 仅图片时直接渲染 -->
-           <div>
+           <!-- <div> -->
           <img :src="message.image" alt="图片" class="message-image-alone standalone-image" />
-        </div>
+        <!-- </div> -->
         </template>
         <template v-else>
           <!-- 文字+图片或仅文字时保留气泡 -->
@@ -190,11 +190,11 @@ export default {
 
 /* 新增独立图片样式 */
 .standalone-image {
-  max-width: 90%;
+  max-width: 75%;
   border-radius: 8px;
   margin-top: 5px;
-  max-height: 210px;
-  width: auto;
+  max-height: 220px;
+  /* width: auto; */
   height: auto;
 }
 </style>

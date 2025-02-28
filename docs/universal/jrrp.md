@@ -8,7 +8,7 @@ export default {
     return {
       chatMessages1: [
         { sender: 'me', text: '/jrrp' },
-        { sender: 'other', image:'../jrrp.png' },
+        { sender: 'other', image:'../jrrp.jpg' },
       ],
     };
   },

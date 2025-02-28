@@ -8,13 +8,13 @@ export default {
     return {
       chatMessages1: [
         { sender: 'me', text: '百花缭乱歌在哪' },
-        { sender: 'other', text:`这首歌的汉化曲名为【百花缭乱】，收录于南梦宫原创音乐区，位于分类文件夹中第144个（共504曲），在分类文件夹中靠上的位置，正着找就好。`,image:'../song_loc.png' },
+        { sender: 'other', text:`这首歌的汉化曲名为【百花缭乱】，收录于南梦宫原创音乐区，位于分类文件夹中第144个（共504曲），在分类文件夹中靠上的位置，正着找就好。`,image:'../song_loc.jpg' },
       ],
       chatMessages2: [
         { sender: 'me', text: '查歌 百花' },
         { sender: 'other', image:'../search_1.png' },
         { sender: 'me', text: '位置id764' },
-        { sender: 'other', text:`这首歌的汉化曲名为【百花缭乱】，收录于南梦宫原创音乐区，位于分类文件夹中第144个（共504曲），在分类文件夹中靠上的位置，正着找就好。`,image:'../song_loc.png' },
+        { sender: 'other', text:`这首歌的汉化曲名为【百花缭乱】，收录于南梦宫原创音乐区，位于分类文件夹中第144个（共504曲），在分类文件夹中靠上的位置，正着找就好。`,image:'../song_loc.jpg' },
       ],
       chatMessages3: [
         { sender: 'me', text: '鬼id764' },

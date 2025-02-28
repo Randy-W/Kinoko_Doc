@@ -8,7 +8,7 @@ export default {
     return {
       chatMessages1: [
         { sender: 'me', text: '/帮助maimaiDX' },
-        { sender: 'other', image:'../helpmaimaidx.png' },
+        { sender: 'other', image:'../helpmaimaidx.jpg' },
         { sender: 'me', text: '/b50' },
         { sender: 'other', text:`...`},
       ]
@@ -26,4 +26,4 @@ export default {
 myAvatar='../avatar_neko.png' 
 otherAvatar="../avatar_kinoko.png" />
 
-![帮助maimaiDX](/helpmaimaidx.png)
+![帮助maimaiDX](/helpmaimaidx.jpg)

@@ -23,7 +23,7 @@ export default {
       ],
       chatMessages4: [
         { sender: 'me', text: '/段位 绿 十段' },
-        { sender: 'other', image:'../dani_3.png' },
+        { sender: 'other', image:'../dani_3.jpg' },
       ],
     };
   },

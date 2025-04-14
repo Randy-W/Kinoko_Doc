@@ -36,6 +36,7 @@ export default defineConfig({
           { text: '难易度表', link: '/taiko/dondernote' },
           { text: '小游戏', link: '/taiko/mini-game' },
           { text: '查鼓点', link: '/taiko/find-arcades' },
+          { text: '机厅人数', link: '/taiko/arcade-players' },
         ]
       },
       {

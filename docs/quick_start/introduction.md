@@ -44,6 +44,6 @@ otherAvatar="../avatar_kinoko.png" />
 <NCard title="☄️ 查段位" link="../taiko/dani">
 挑战段位！
 </NCard>
-<NCard title="🤤 菌菌老婆" link="../kinoko/group">
+<NCard title="🤤 菌菌" link="../kinoko/group">
 加菌菌群，邀请菌菌、聊太鼓、拿菌菌表情包！
 </NCard>

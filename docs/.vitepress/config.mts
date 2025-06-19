@@ -11,6 +11,7 @@ export default defineConfig({
       noExternal: [ 
         // 如果还有别的依赖需要添加的话，并排填写和配置到这里即可 //
         '@nolebase/vitepress-plugin-highlight-targeted-heading', 
+        '@nolebase/vitepress-plugin-enhanced-readabilities',
       ], 
     }, 
   },

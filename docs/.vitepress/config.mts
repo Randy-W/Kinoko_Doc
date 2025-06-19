@@ -6,6 +6,21 @@ export default defineConfig({
   description: "菌菌帮助文档",
   // base: '/Kinoko_Doc/',
   appearance: false,
+  vite: { 
+    ssr: { 
+      noExternal: [ 
+        // 如果还有别的依赖需要添加的话，并排填写和配置到这里即可 //
+        '@nolebase/vitepress-plugin-highlight-targeted-heading', 
+      ], 
+    }, 
+  },
+  locales: {
+    root: {
+      label: '中文',
+      lang: 'zh'
+    },
+  },
+
   markdown: {
     theme: {
         dark: 'dracula-soft',

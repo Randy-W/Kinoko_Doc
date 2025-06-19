@@ -16,7 +16,7 @@ export default {
 
 
 # 介绍
-菌菌是一个🐧即时聊天工具中专为太鼓达人群设计的功能性机器人，同时也是一个拥有形象的原创角色。
+菌菌是一个在QQ中专为太鼓达人群设计的功能性机器人，同时也是一个拥有形象的原创角色。
 
 > [!IMPORTANT] 注意
 > 不要盗用菌菌的图片稿件哦
@@ -33,3 +33,17 @@ export default {
 <Chatbox :messages="chatMessages" 
 myAvatar='avatar_neko.png' 
 otherAvatar="../avatar_kinoko.png" />
+
+<br>
+<NCard title="📖 查歌" link="../taiko/search">
+群友都是怎么查到谱面的呀？
+</NCard>
+<NCard title="✨ 别名查歌" link="../taiko/alia-search">
+一句话问出谱面的方法！
+</NCard>
+<NCard title="☄️ 查段位" link="../taiko/dani">
+挑战段位！
+</NCard>
+<NCard title="🤤 菌菌老婆" link="../kinoko/group">
+加菌菌群，邀请菌菌、聊太鼓、拿菌菌表情包！
+</NCard>

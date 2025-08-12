@@ -66,6 +66,8 @@ chatMessages5: [
 这里的`关键字`将会用来匹配歌曲的别名，需要和别名完全相同的时候才能匹配成功。
 > [!NOTE]
 > 歌曲的别名来自于大家共同参与填写的[太鼓歌曲别名收集表](https://www.kdocs.cn/l/cauSVZId2ohu)。
+>
+> 在填写时，请遵守[别名规范](../taiko/alia-search-requirement.md)。
 
 <Chatbox :messages="chatMessages1" 
 myAvatar='../avatar_neko.png' 

@@ -3,7 +3,7 @@ layout: 'home'
 
 
 hero:
-  name: "菌菌帮助文档"
+  name: "菌菌使用文档"
   text: ""
   tagline: 
   actions:

@@ -16,14 +16,8 @@ export default {
       ],
       chatMessages3: [
         { sender: 'me', text: '鬼id764' },
-        { sender: 'other', text:`【百花繚乱】
-收录平台： AC11~12增、无印~绿、虹2020~虹2024、AC14、11亚、12亚、巴西桃、海外虹、PSPDX、DS2、3DS2、Wii4、PTB、手机版plus、RC、NS RPG、NS1、NS2 MP、国行虹
-所在分区：ナムコオリジナル
-难度：★×8
-BPM: 148
-“谱面会分歧哦！”
-国行街机已收录！
-汉化曲名：【百花缭乱】`,image:'../search_3.png' },
+        { sender: 'other', text:`【百花繚乱】(以下略
+`,image:'../search_3.png' },
       ],
     };
   },
@@ -41,7 +35,7 @@ BPM: 148
 <!-- > [!TIP] 明确
 >  菌菌曲库中的`id`和部分人所知道的`uniqueId`、`曲id`没有任何关系 -->
 
-### 先通过关键字查找歌曲id
+## 先通过关键字查找歌曲id
 发送 `"查歌"+关键字` 来使用关键词查歌，这里的`关键字`会被用来查查询歌曲的曲名。
 
 <Chatbox :messages="chatMessages1" 
@@ -60,7 +54,7 @@ otherAvatar="../avatar_kinoko.png" />
 > [!TIP] 提示
 > 日文曲名的罗马音均为机翻进行匹配的，可能会出现一定程度的错误。
 
-### 再通过id查询谱面
+## 再通过id查询谱面
 发送`难度+"id"+查到曲名前的编号`来让菌菌发出谱面吧！
 
 <Chatbox :messages="chatMessages3" 

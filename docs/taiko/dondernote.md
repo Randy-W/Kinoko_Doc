@@ -17,6 +17,12 @@ export default {
 };
 </script>
 
+::: danger 注意⚠️
+请看清楚这个网站的名称 → Don**der** Note
+
+QQ官方Bot版菌菌不支持这个功能
+:::
+
 # 难易度表
 [Donder Note](https://hatahata.outsystemscloud.com/DonderNote/)是一个用于手动记录太鼓歌曲成绩的网站，成绩需要手动填写，并非游戏内直接导入成绩。  
 需要先注册Donder Note账号并绑定，填写完你的歌曲达成情况之后，发送【/难易度表 (难度星级数字)】就可以得到你的难易度表。

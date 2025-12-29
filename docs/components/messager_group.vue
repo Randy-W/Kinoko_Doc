@@ -1,5 +1,5 @@
 <template>
-  <div class="chatbox">
+  <div class="Chatbox_group">
     <div class="chatbox-messages">
       <div
         v-for="(message, index) in messages"
@@ -43,7 +43,7 @@
 
 <script>
 export default {
-  name: 'Chatbox',
+  name: 'Chatbox_group',
   props: {
     // 消息对象需包含：senderId, nickname, avatar, text, image
     messages: {
@@ -75,7 +75,7 @@ export default {
 
 <style scoped>
 /* 还原容器样式 */
-.chatbox {
+.Chatbox_group {
   display: flex;
   flex-direction: column;
   width: 100%;

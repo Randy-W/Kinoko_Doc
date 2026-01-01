@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "菌菌帮助文档",
-  description: "菌菌帮助文档",
+  title: "菌菌使用文档",
+  description: "菌菌使用文档",
   // base: '/Kinoko_Doc/',
   appearance: false,
   vite: { 
@@ -44,7 +44,7 @@ export default defineConfig({
         text: '概览',
         items: [
           { text: '介绍', link: '/quick_start/introduction' },
-          { text: '版本区分', link: '/quick_start/versions' },
+          // { text: '版本区分', link: '/quick_start/versions' },
         ]
       },
       {
@@ -75,7 +75,8 @@ export default defineConfig({
         text: '菌菌菌菌菌',
         items: [
           { text: '实物周边', link: '/kinoko/goods' },
-          { text: '邀请方式 & 菌菌群', link: '/kinoko/group' },
+          { text: '菌菌群', link: '/kinoko/group' },
+          { text: '领养菌菌', link: '/kinoko/invite' },
         ]
       },
     ],

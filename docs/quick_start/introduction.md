@@ -64,7 +64,7 @@ export default {
 ::: tip 最大的区别
 官方bot在**群里使用时**，不加@就收不到消息。**小窗单独使用可以收得到**。
 
-**只要能收到消息，就和菌菌一直以来的使用方法没有差异。**
+**只要能收到消息，就和菌菌一直以来的使用方法没有差异。无论消息是否以“/”开头都可以收得到。**
 :::
 
 <Chatboxes :messages="messages1" />
@@ -110,4 +110,8 @@ otherAvatar="../avatar_kinoko.png" />
 
 <NCard title="🤤 加菌菌群" link="../kinoko/group">
 获取菌菌表情包和最新动态（风控避难所
+</NCard>
+
+<NCard title="🔛 领养菌菌" link="../kinoko/invite">
+领养属于自己的菌菌
 </NCard>

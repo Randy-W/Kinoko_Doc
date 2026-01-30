@@ -60,7 +60,7 @@ export default {
 
 ::: details 官方Bot版菌菌也可以加好友和拉群吗？
 是的，和以前的菌菌不一样，你可以直接点头像，然后点击右下角的添加使用就可以加好友单独使用了，没有任何门槛。拉群就点添加到群聊。
-![官方菌菌](../official_bot_page.jpg)
+![官方菌菌](/official_bot_page.jpg)
 :::
 
 <Chatbox :messages="messages1" />

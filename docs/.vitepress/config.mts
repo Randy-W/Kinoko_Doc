@@ -44,7 +44,8 @@ export default defineConfig({
         text: '概览',
         items: [
           { text: '介绍', link: '/quick_start/introduction' },
-          // { text: '版本区分', link: '/quick_start/versions' },
+          { text: '版本区分', link: '/quick_start/versions' },
+          { text: '一页省流', link: '/quick_start/funtions-in-one-page' },
         ]
       },
       {
@@ -55,6 +56,7 @@ export default defineConfig({
           { text: '歌曲位置', link: '/taiko/song-location' },
           { text: '段位', link: '/taiko/dani' },
           { text: '绑定广场', link: '/taiko/donderhiroba' },
+          { text: 'Rating系统', link: '/taiko/rating' },
           { text: '难易度表', link: '/taiko/dondernote' },
           { text: '小游戏', link: '/taiko/mini-game' },
           { text: '查鼓点', link: '/taiko/find-arcades' },
@@ -75,7 +77,7 @@ export default defineConfig({
         text: '菌菌菌菌菌',
         items: [
           { text: '实物周边', link: '/kinoko/goods' },
-          { text: '菌菌群', link: '/kinoko/group' },
+          { text: '菌菌群&联系方式', link: '/kinoko/group' },
           { text: '领养菌菌', link: '/kinoko/invite' },
         ]
       },

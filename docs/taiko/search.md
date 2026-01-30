@@ -70,7 +70,7 @@ otherAvatar="../avatar_kinoko_no2.png" />
 <table><thead><tr><th>简单</th><th>普通</th><th>困难</th><th>魔王</th><th>魔王(里)</th></tr></thead><tbody><tr><td>梅</td><td>竹</td><td>松</td><td>鬼</td><td>里</td></tr></tbody></table>
 
 
-# 针对QQ官方Bot的优化
+## 针对QQ官方Bot的优化
 因为使用官方bot时，打出“/”会弹出指令列表，所以我在指令列表中加入了“/查歌”功能。**省得去@了**。当然，你手动@菌菌然后输入“查歌 关键词”也是可以用的。
 
 ::: tip 简单来说

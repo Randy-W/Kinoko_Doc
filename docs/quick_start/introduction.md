@@ -94,6 +94,10 @@ myAvatar='avatar_neko.png'
 otherAvatar="../avatar_kinoko.png" />
 
 <br>
+<NCard title="💫 一页省流" link="../quick_start/funtions-in-one-page">
+快速地查看菌菌主要功能
+</NCard>
+
 <NCard title="📖 查歌" link="../taiko/search">
 通过曲名→id精确查找谱面
 </NCard>

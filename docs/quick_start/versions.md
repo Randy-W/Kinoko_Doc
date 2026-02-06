@@ -37,7 +37,38 @@ export default {
     avatar: '../avatar_kinoko.png', 
     text: '听到了' 
   }
-],
+],messages2: [
+  { 
+    senderId: 'me', 
+    nickname: '昊俣', 
+    avatar: '../avatar_neko.png', 
+    text: '@菌菌 我的QQ号是多少呀？' 
+  },
+  { 
+    senderId: '', 
+    nickname: '菌菌', 
+    avatar: '../avatar_kinoko_no2.png', 
+    text: '是347492847' 
+  },
+  { 
+    senderId: 'me', 
+    nickname: '昊俣', 
+    avatar: '../avatar_neko.png', 
+    text: '@菌菌 Bot 那在你看来，我的QQ号是？' 
+  },
+  { 
+    senderId: '', 
+    nickname: '菌菌 Bot', 
+    avatar: '../avatar_kinoko.png', 
+    text: '是I23U54SD34F7H789A4K9S0' 
+  },
+  { 
+    senderId: 'me', 
+    nickname: '昊俣', 
+    avatar: '../avatar_neko.png', 
+    text: '？' 
+  },
+]
     };
   },
 };
@@ -50,12 +81,12 @@ export default {
 
 两个版本只靠那个标志区分。
 
-## 区别
+## 消息接收上的区别
 
 ::: tip 最大的区别
 官方bot在**群里使用时**，不加@就收不到消息。**小窗单独使用可以收得到**。所以推荐小窗单独使用官方Bot版菌菌。
 
-只要能收得到消息，就和菌菌一直以来的使用方法没有差异。**是的，就算是打出<kbd>"/"</kbd>后弹出的指令列表里没有的功能也可以用。**
+只要能收得到消息，就和菌菌一直以来的使用方法没有差异。**就算是打出<kbd>"/"</kbd>后弹出的指令列表里没有的功能也可以用。**
 :::
 
 ::: details 官方Bot版菌菌也可以加好友和拉群吗？
@@ -73,3 +104,13 @@ export default {
 
 
 在功能使用上，我对[“查歌”](../taiko/search)和[“别名查歌”](../taiko/alia-search)做了对官方bot的易用性上的修改，请查看对应的文档。
+
+## 用户信息上的区别
+**对于官方Bot来说，无法获取用户的昵称和QQ号**。于是就会有类似下面这些影响：
+
+- 对于`/jrrp`来说，显示不了你的昵称<br/>
+- 对于`/小游戏`来说，无法统计`/本群小游戏排名`<br/>
+- 对于`/绑定广场`等和广场联动的功能来说，菌菌是通过QQ号来和广场id绑定的，但是因为官方Bot无法知道你的QQ号，所以即使在第三方框架菌菌上绑定过，也还是需要重新绑定一次<br/>
+
+<Chatbox :messages="messages2" />
+> 只是演示，不要真的这么去问菌菌，不会回你的（<br/>

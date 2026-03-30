@@ -1,0 +1,38 @@
+{
+  "rows": [
+    {
+      "buttons": [
+        {
+          "render_data": {
+            "label": "再来一张",
+            "visited_label": "再来一张",
+            "style": 1
+          },
+          "action": {
+            "type": 2,
+            "permission": {
+              "type": 2
+            },
+            "data": "/随机表情",
+            "unsupport_tips": "发送/随机表情再来一张"
+          }
+        },
+        {
+          "render_data": {
+            "label": "使用规范",
+            "visited_label": "使用规范",
+            "style": 1
+          },
+          "action": {
+            "type": 0,
+            "permission": {
+              "type": 2
+            },
+            "data": "https://kinoko.zorua.cn/universal/sticker_usage_guide.html",
+            "unsupport_tips": "https://kinoko.zorua.cn/universal/sticker_usage_guide.html"
+          }
+        }
+      ]
+    }
+  ]
+}

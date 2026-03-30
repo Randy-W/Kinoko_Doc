@@ -10,6 +10,9 @@ hero:
     - theme: brand
       text: 立即查看
       link: /quick_start/introduction
+    - theme: alt
+      text: 一页省流
+      link: /quick_start/funtions-in-one-page
   image:
       src: /index_logo.png
       alt: logo

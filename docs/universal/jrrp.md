@@ -10,6 +10,10 @@ export default {
         { sender: 'me', text: '/jrrp' },
         { sender: 'other', image:'../jrrp.jpg' },
       ],
+      chatMessages2: [
+        { sender: 'me', text: '/塔罗牌' },
+        { sender: 'other', image:'../tlp.jpg' },
+      ],
     };
   },
 };
@@ -22,6 +26,16 @@ export default {
 myAvatar='../avatar_neko.png' 
 otherAvatar="../avatar_kinoko.png" />
 
-> [!TIP]
+> [!TIP] 提示
 > 今日人设的部分是从太鼓有史以来的**称号**中抽选的。
 > 删除了一小部分不像人设的称号，但仍有一千多个。
+
+___
+
+
+# 塔罗牌
+向菌菌发送`/塔罗牌`，可以抽卡。每天只能抽一张。
+
+<Chatbox :messages="chatMessages2" 
+myAvatar='../avatar_neko.png' 
+otherAvatar="../avatar_kinoko.png" />

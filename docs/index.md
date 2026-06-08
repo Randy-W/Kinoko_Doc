@@ -23,7 +23,7 @@ features:
     details: 菌菌是紧跟群友需求持续更新的
   - icon: 🌌
     title: 唯一的
-    details: 菌菌是目前唯一的太鼓群Bot
+    details: 菌菌是目前唯一专攻太鼓的群Bot
   - icon: 🌟
     title: 可爱
     details: 无需多言

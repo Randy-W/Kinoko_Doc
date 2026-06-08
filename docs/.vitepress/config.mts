@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "菌菌使用文档",
   description: "菌菌使用文档",
-  // base: '/Kinoko_Doc/',
+  base: '/kinoko_doc/',
   appearance: false,
   vite: { 
     ssr: { 
@@ -54,6 +54,7 @@ export default defineConfig({
           { text: '查歌', link: '/taiko/search' },
           { text: '别名查歌', link: '/taiko/alia-search' },
           { text: '歌曲位置', link: '/taiko/song-location' },
+          { text: '播放谱面', link: '/taiko/song-preview' },
           { text: '段位', link: '/taiko/dani' },
           { text: '绑定广场', link: '/taiko/donderhiroba' },
           { text: 'Rating系统', link: '/taiko/rating' },

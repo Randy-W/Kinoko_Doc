@@ -32,3 +32,9 @@ QQ官方Bot版菌菌不支持这个功能
 <Chatbox :messages="chatMessages" 
 myAvatar='../avatar_neko.png' 
 otherAvatar="../avatar_kinoko.png" />
+
+> 真怀念呀，好多年了。这个生成的图片中表头写着的版本甚至还是虹2022
+>
+> 在Don Note出来之后，大家也都不用Donder Note了。也确实没必要用了。
+>
+> 这个功能在不久的将来应该也会被删掉吧。

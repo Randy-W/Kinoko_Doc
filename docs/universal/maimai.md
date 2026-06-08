@@ -18,7 +18,7 @@ export default {
 </script>
 
 ::: danger 注意⚠️
-QQ官方Bot版菌菌不支持这个功能
+本功能已经删除，文档页面也即将删除
 :::
 
 

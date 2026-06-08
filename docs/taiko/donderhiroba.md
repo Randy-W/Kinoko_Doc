@@ -18,7 +18,11 @@ export default {
       ],
       chatMessages3: [
         { sender: 'me', text: '/我的小咚' },
-        { sender: 'other', text: '(可爱小咚图像...)' }
+        { sender: 'other', text: '(你的小咚图像...)' }
+      ],
+      chatMessages4: [
+        { sender: 'me', text: '查分 atoz' },
+        { sender: 'other',image:'../song_score.jpg' }
       ],
     };
   },
@@ -41,24 +45,37 @@ myAvatar='../avatar_neko.png'
 otherAvatar="../avatar_kinoko.png" />
 
 ::: tip 提示
-修改的是你的**称号**，而不是你的玩家名。
+修改的是你的**称号**，不是你的玩家名。
 :::
 
 
 ## 绑定了之后可以做什么？
-目前只可以预览你的小咚装扮和皇冠和评价信息。
 
-发送`/我的小咚`试试吧！
+### 看小咚形象
+
+发送`/我的小咚`试试吧！图片是透明底的，如果想用来做什么的话就省去你抠图的时间了
 <Chatbox :messages="chatMessages3" 
 myAvatar='../avatar_neko.png' 
 otherAvatar="../avatar_kinoko.png" />
 
 
-> 🚧把看成绩这件事做得有趣、实用、不和其它工具重复的样子...还需要等我进一步开发...
+### 查分
+发送`查分+关键词`或者`我<关键词>多少分`就可以用你输入的关键词查分了，和[别名查歌](../taiko/alia-search.md)的机制相同。
+
+查询的难度是根据别名来的，如果没匹配到别名走模糊搜索的话，不指定难度默认发最高难度
+
+<Chatbox :messages="chatMessages4" 
+myAvatar='../avatar_neko.png' 
+otherAvatar="../avatar_kinoko.png" />
+
+> 中间的评价刻度尺中，预测达标各个评价的成绩所使用的连打秒速是按照你当前分数里的秒速计算的。
+>
+> 如果你的连打太少导致即时全良都不能达到“极”评价时，也会提醒你补几个连打
+
 
 
 ## 更新广场信息
-发送`/更新广场`即可，这会更新你的小咚装扮和皇冠与评价信息。
+发送`/更新广场`即可，这会更新你的小咚装扮和皇冠与评价信息以及歌曲分数。
 <Chatbox :messages="chatMessages2" 
 myAvatar='../avatar_neko.png' 
 otherAvatar="../avatar_kinoko.png" />

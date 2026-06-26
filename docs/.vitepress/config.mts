@@ -1,7 +1,8 @@
-import { defineConfig } from 'vitepress'
+// import { defineConfig } from 'vitepress'
+import { withMermaid } from "vitepress-plugin-mermaid";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid ({
   title: "菌菌使用文档",
   description: "菌菌使用文档",
   base: '/kinoko_doc/',
@@ -25,7 +26,8 @@ export default defineConfig({
     theme: {
         dark: 'dracula-soft',
         light: 'github-dark',
-    }
+    },
+    math: true,
   },
   themeConfig: {
     footer: {
@@ -57,6 +59,7 @@ export default defineConfig({
           { text: '播放谱面', link: '/taiko/song-preview' },
           { text: '段位', link: '/taiko/dani' },
           { text: '绑定广场', link: '/taiko/donderhiroba' },
+          { text: '进步推荐', link: '/taiko/step-up' },
           { text: 'Rating系统', link: '/taiko/rating' },
           { text: '难易度表', link: '/taiko/dondernote' },
           { text: '小游戏', link: '/taiko/mini-game' },
@@ -83,5 +86,13 @@ export default defineConfig({
         ]
       },
     ],
+  },
+  mermaid: {
+    // 配置参考： https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults
+  },
+  // 可选地使用MermaidPluginConfig为插件本身设置额外的配置
+  mermaidPlugin: {
+    class: "mermaid my-class" // 为父容器设置额外的CSS类
   }
+  
 })
